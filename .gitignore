@@ -1,0 +1,40 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Local environment and configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Private keys and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+.aws/
+.ssh/
+
+# Logs
+*.log
+
+# User-owned vendor packages, private backups, and generated patch output
+/vendor/
+/private/
+/build/
+/v0.1 Roth Touchline Web Portal Experimental/
+*.img
+*.jar
+*.teq
+*.itq
+*.tcr
+*.pdf
+*.zip
+*.tar
+*.gz
+
+# Python cache
+__pycache__/
+*.py[cod]
